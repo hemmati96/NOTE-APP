@@ -1,0 +1,143 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+body {
+	
+	 font-family: Arial, Helvetica, sans-serif;
+	 text-align: center;
+
+}
+.container{
+	display:flex;
+	flex-direction:column ;
+	justify-content: center;
+	align-items: center;
+	margin: 90px auto;
+	width: 1280px;
+	
+}
+h1{
+	
+	color: #444649;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 500;
+}	
+input{
+	
+    width:550px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	margin-top: 30px;
+
+
+}
+input:focus{
+	outline: 2px solid rgb(104, 177, 255);
+}
+.colors-cont{
+	display: flex;
+	margin-top: 3px;
+}
+.color{
+	border: solid 1px #929292;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    margin: 2px;
+}
+.btns-cont{
+	display: flex;
+	justify-content: end;
+}
+
+#btn-plus,#btn-clean {
+	width: 40px;
+    
+    margin-left: 5px;
+    height: 35px;
+    border-radius: 5px;
+	font-size: 18px;
+	align-content: center;
+	text-align: center;
+}
+#btn-clean{
+	border: 1px solid #dc3545;
+	color:#dc3545;
+}
+#btn-clean:hover{
+	background-color: #dc3545;
+	color: #fff;
+}
+#btn-plus{
+	border: 1px solid #17a2b8;
+	color:#17a2b8;
+}
+#btn-plus:hover{
+	background-color: #17a2b8;
+	color: #fff;
+}
+.notes-cont{
+	width: 80%;
+	margin: 50px;
+	display: grid;
+	grid-gap: 5px;
+	grid-auto-flow: column;
+
+	grid-template-columns:auto auto auto auto ;
+}
+.notes{
+	    
+		padding: 20px;
+		border: 1px solid #e5e5e5;
+		box-shadow: 1px 2px 2px #d7d7d7;
+}
+.color:nth-child(1){
+
+background-color:##ffffff;                 
+
+}
+.color:nth-child(2){
+background-color: #81ecec;
+}
+.color:nth-child(3){
+background-color: #fab1a0;
+}
+.color:nth-child(4){
+background-color: #ffeaa7;
+}
+.color:nth-child(5){
+background-color: #a29bfe;
+}
+.color:nth-child(6){
+background-color: #dfe6e9;
+}
+.color:nth-child(7){
+background-color:#ff9ff3 ;
+}
+.color:nth-child(8){
+background-color:#BDC581 ;
+}
+.color:nth-child(9){
+background-color: #ffb8b8;
+}
+.color:nth-child(10){
+background-color: #fffa65;
+}
+.color:nth-child(11){
+background-color: #7efff5;
+}
+.color:nth-child(12){
+background-color: #32ff7e;
+}
